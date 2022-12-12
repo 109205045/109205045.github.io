@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title></title>
+ <style type="text/css">
+  body{background: lightcyan;}
+
+  body{font-weight: 200;
+   font-size: 15pt;
+   font-family: Serif;
+   color: ;
+   margin left: 10px;
+  }
+   .purple{background: purple;
+          font-size: 20pt}
+
+  #red{background: indianred;}
+
+  .under{text-decoration:underline;
+         font-size: 10pt}
+  #yel{font-size: 25pt;
+       font-weight: 300;
+       color: yellowgreen;
+       background: gray;}
+
+  span{
+
+   color: black;
+   border: 3px gray;
+   font-size: 15pt;
+  }
+  .extra span{
+   color:inherit;
+  }
+  li {text-decoration: line-through;}
+  li em{text-decoration: underline;}
+  h2,em}{font-weight: bold;}
+
+ </style>
+  
+</head>
+<body>
+ <p><label><h1 class="purple">Color:</h1>
+ <input type="color" autofocus /><h1 class="under">(Hexadecimal such as #ADD8E6)</h1>
+    </label></p>
+    <p><label><h1 id="red">Date:</h1>
+     <input type="Date" name="Date"><h1 class="under">(yyyy-mm-dd)</h1>
+    </label></p>
+    <p><label><h1 class="purple">Email:</h1>
+     <input type="text" name="Email"><h1 class="under">(name@domain.com)</h1>
+    </label></p>
+    <p><label><h1 class="purple">Number:</h1>
+    <input type="number" name="quantity" min="0" max="7" value="4"><h1 class="under">(Enter a number between 0 and 7)</h1>
+    </label></p>
+    <p><label><h1 class="purple">Range:</h1> 0
+     <input type="range" name="Range" min="0" max="20">20
+    </label></p>
+    <p><label><h1 class="purple">Search:</h1>
+     <input type="search" name="search">
+     
+    </label></p>
+    <p><label><h1 class="purple">Time:</h1>
+     <input type="time" name="Time"><h1 class="under">(<em>hh</em>:mm)</h1>
+     
+    </label></p>
+    <input type="submit" name="Submit">
+    <input type="reset" name="clear">
+
+     <h1 id=yel>Thank you for submit!</h1>
+    <img src="鱷魚.png">
+
+
+
+</body>
+</html>
